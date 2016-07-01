@@ -1,0 +1,1788 @@
+/* -------------------- SPLASH PAGE + NAVBAR -------------------- */
+
+.main {
+    height: 100%;
+    width: 100%;
+    background: url("../img/splash.jpg");
+    background-size: cover;
+}
+
+#helloWorldPeople {
+    width: 50%;
+    height: 130px;
+    margin: 20 auto;
+    font-family: Lato;
+    font-size: 30px;
+    color: white;
+}
+
+.beginHacking {
+    display: none;
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+            
+.nice {
+    background-color: azure;
+    height: 75%;
+}
+
+.header img {
+    display: block;
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    padding-top: 175px;
+}
+            
+.header {
+    background-color: dimgray;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+            
+.header h1 {
+    text-align: center;
+    font-family: Avenir;
+    opacity: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 58px;
+    padding-top: 200px;
+    z-index: -1;
+}
+            
+.header h1 span {
+    font-size: 28px;
+}
+
+.header h1 #timer {
+    color: white;
+    font-size: 36px;
+}
+            
+.header h4 {
+    font-size: 25px;
+    color: white;
+    font-family: Lato;
+    text-align: center;
+    margin-top: 0;
+}
+
+/*NAV*/
+
+#nav {
+        width: 100%;
+        height: 7%;
+        text-align: center;
+        position: fixed;
+        z-index: 3;
+        background-color: dimgray;
+        opacity: 1;
+}
+
+#nav p {
+        display: inline-block;
+        margin: 0 auto;
+        padding-right: 50px;
+        text-decoration: none;
+        padding-left: 50px;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 11px;
+}
+
+#nav p a {
+        font-size: 16px;
+        color: white;
+        font-family: Avenir;
+        text-decoration: none;
+        text-decoration-line: none;
+        padding-top: 11px;
+}
+
+@media(max-width: 800px ) {
+    
+    #helloWorldPeople {
+        font-size: 22px;
+    }
+
+}
+
+@media(max-width: 500px ) {
+    
+    #helloWorldPeople {
+        font-size: 17px;
+    }
+
+}
+
+/* -------------------- INFO SECTION -------------------- */
+
+.info {
+    width: 100%;
+    //height: 60%;
+    background-color: #D4D9DB;
+    padding-bottom: 10px;
+}
+
+.info h2 {
+    font-weight: 300;
+    text-align: center;
+    //letter-spacing: 1px;
+    padding-top: 25px;
+    font-family: Lato;
+    font-size: 40px;
+}
+
+.info h4 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Lato;
+    text-align: center;
+}
+
+.info h5 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+/* -------------------- Speakers -------------------- */
+
+#speakers{
+  padding: 80px 0;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+    //height: 95%;
+  text-align: center;
+}
+
+/*This class 'cover' gives it the gray-ish color and the opacity styling */
+.cover {
+    width: 100%;
+    height: 100%;
+    background-color: dimgray;
+    border-radius: 15px;
+    opacity: 0.68;
+
+}
+
+.speakerSectionTitle {
+    font-family: Lato;
+    margin-top: -40px;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.speakerName {
+    color: whitesmoke;
+    position: relative;
+    top: 200px;
+    font-size: 21px;
+}
+
+.speakerInfo {
+    color: whitesmoke;
+    position: relative;
+    top: 175;
+    font-size: 12px;
+}
+
+
+/*Speaker 1,2, and 3 are up. Once there are more, I'll add them in */
+.speakerOne {
+    background: url('../img/conrad.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerTwo {
+    background: url('../img/Rauch.png');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerThree {
+    background: url('../img/vivian.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerFour {
+    background: url('../img/liam.png');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerFive {
+    background: url('../img/sam.png');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerSix {
+    background: url('../img/azat.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerEight {
+    background: url('../img/andrew.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerNine {
+    background: url('../img/evan.png');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerTen {
+    background: url('../img/jeremy.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerEleven {
+    background: url('../img/elizabethdouglas.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.speakerTwelve {
+    background: url('../img/ashley.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerThirteen {
+    background: url('../img/matthew.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerFourteen {
+    background: url('../img/dave.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerFifteen {
+    background: url('../img/maegan.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerSixteen {
+    background: url('../img/evadora.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerSeventeen {
+    background: url('../img/alex.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerEighteen {
+    background: url('../img/niko.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+    width: 250px
+}
+
+.speakerNineteen {
+    background: url('../img/jack.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerTwenty {
+    background: url('../img/josh_tyler.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+    width: 250px;
+}
+
+.speakerTwentyOne {
+    background: url('../img/jiquan.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerTwentyTwo {
+    background: url('../img/pk.png');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerTwentyThree {
+    background: url('../img/sam_altman.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerTwentyFour {
+    background: url('../img/mike.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerTwentyFive {
+    background: url('../img/geoffschmidt.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerTwentySix {
+    background: url('../img/laurievoss.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerApache {
+    background: url('../img/randyterbush.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.apacheInfo {
+    color: whitesmoke;
+    position: relative;
+    top: 160;
+    font-size: 12px;
+}
+
+.apacheName {
+    color: white;
+    position: relative;
+    top: 180;
+    font-size: 21px;
+}
+
+.speakerTwentyEight {
+    background: url('../img/jadewang.jpeg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerTwentyNine {
+    background: url('../img/andrewsutherland.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerThirty {
+    background: url('../img/erinbeitel.jpeg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerThirtyOne {
+    background: url('../img/annedwane.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.speakerThirtyTwo {
+    background: url('../img/muzzammilzaveri.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.speakerThirtyThree {
+    background: url('../img/emilyleproust.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerThirtyFour {
+    background: url('../img/jurgisorups.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.speakerThirtyFive {
+    background: url('../img/alexkern.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    z-index: -1;
+}
+
+.speakerThirtySix {
+    background: url('../img/pouyansalehi.jpg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    z-index: -1;
+}
+
+.speakerThirtySeven {
+    background: url('../img/michaelstaton.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    position: relative;
+    z-index: -1;
+}
+
+.speakerThirtyEight {
+    background: url('../img/elizabeth-yin.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    position: relative;
+    z-index: -1;
+}
+
+.speakerThirtyNine {
+    background: url('../img/lijiang.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    position: relative;
+    z-index: -1;
+}
+
+.speaker {
+    width: 22%;
+    height: 250px;
+    display: inline-block;
+    margin: auto;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-radius: 15px;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+
+/*Media Queries for the speaker section -- makes it more responsive */
+
+@media(max-width: 970px ) {
+
+    .speaker {
+        width: 35%;
+    }
+}
+
+@media(max-width: 850px ) {
+
+    .speaker {
+        width: 40%;
+    }
+
+}
+
+@media(max-width: 580px ) {
+
+    .speaker {
+        width: 70%;
+    }
+}
+
+
+            
+/* -------------------- Schedule -------------------- */
+            
+.schedule {
+    width: 100%;
+    background-color: #f3f3f3;
+    padding-bottom: 55px;
+}
+
+.schedule .mapLink {
+    text-align: center;
+    font-size: 20px;
+}
+
+.schedule .mapLink a {
+    text-decoration: none;
+}
+
+.schedule .map {
+    text-decoration: none;
+}
+
+.schedule .map h5 {
+    color: black;
+    font-family: Lato;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+}
+.schedule h1 {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    color: #8FB7EB;
+    font-family: Lato;                
+}
+            
+.schedule h4 {
+    text-align: center;
+    font-family: Lato;
+    font-weight: 200;
+}
+
+.buttonHolder {
+    text-align: center;
+}
+
+.buttonHolder button {
+    background-color: #eeeeee;
+}
+
+.buttonHolder button:hover {
+    background-color: #91A3AB;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.buttonClose {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    color: red;
+}
+            
+.column1 {
+    display: inline-block;
+    width: 33%;
+    height: 70px;
+}
+            
+.column2 {
+    display: inline-block;
+    width: 33%;    
+    height: 70px;
+}
+
+.column3 {
+    display: inline-block;
+    width: 33%;
+    height: 70px;
+}
+
+.column3 h5 {
+    padding-left: 15px;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 300;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+            
+.column1 h5 {
+    padding-left: 15px;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 300;
+    //padding-top: 15px;
+    //padding-bottom: 10px;
+    vertical-align: text-bottom;
+    text-align: left;
+}
+            
+.column2 h5 {
+    text-align: left;
+    padding-right: 15px;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 300;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+            
+.event {
+    border-bottom: 1px solid dimgray;
+}
+            
+.awesome {
+    display: block;
+    width: 55%;
+    margin: 0 auto;
+}
+
+
+/*general panel info*/
+
+.speakerCover {
+    width: 250px;
+    height: 250px;
+    background-color: dimgray;
+    border-radius: 10px;
+    opacity: 0.68;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+
+.techLink {
+    text-decoration: none;
+}
+
+.speakerCover h5 {
+    position: relative;
+    top: 210;
+}
+
+.panelSpeakersTitle {
+    text-align: center;
+    font-family: Lato;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.panelTitle {
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.panelAbout {
+    text-align: right;
+    margin-left: 5px;
+    font-family: Lato;
+    text-decoration: underline;
+    font-weight: 200;
+}
+
+.panelButton {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.panelAboutDescription {
+    font-weight: 100;
+    font-family: Lato;
+    font-size: 24px;
+    
+}
+#panelSpeakers {
+    vertical-align: top;
+    background-size: cover;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 20 auto;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+/*bus info*/
+
+.busInfo {
+    display: block;
+    width: 80%;
+    //background-color: red;
+    margin: 0 auto;
+}
+
+.school {
+    border-bottom: 1px solid black;
+    //height: 50px;
+    text-align: center;
+}
+
+.col1 {
+    display: inline-block;
+    width: 24%;
+    height: 70px;
+}
+
+.col1 strong p {
+    //padding-top: 75px;
+}
+
+.col1 p {
+    //padding-top: 48px;
+    vertical-align: middle;
+}
+
+.col2 {
+    display: inline-block;
+    width: 24%;
+    height: 70px;
+}
+
+.col2 strong p {
+    //padding-top: 75px;
+}
+
+.col2 p {
+    font-size: 16px;
+}
+
+
+.col3 {
+    display: inline-block;
+    width: 24%;
+    height: 70px;
+}
+
+.col3 strong p {
+    //padding-top: 75px;
+}
+
+.col4 {
+    display: inline-block;
+    width: 24%;
+    height: 70px;
+}
+
+.col4 {
+    font-size: 16px;
+}
+
+.col4 strong p {
+    //padding-top: 75px;
+}
+
+#infoSchool {
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+    text-align: center;
+}
+
+#infoSchool p {
+    font-size: 14px;
+}
+
+#col1 p {
+    padding-top: 7px;
+    //max-width: 20%;
+    text-align: center;
+}
+
+/*ziggy table style */
+.bus_table {
+  margin: 0 auto;
+    border: 0;
+    border: thin solid black;
+    border-collapse: collapse;
+}
+
+.bus_table tr * {
+  width: 250px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/*panel one */
+.panelOneSpeakerOne {
+    background: url('../img/ashley.jpg');
+}
+
+.panelOneSpeakerTwo {
+    background: url('../img/alexkern.jpg');
+}
+
+.panelOneSpeakerThree {
+    background: url('../img/matthew.jpg');
+}
+
+.panelOneSpeakerFour {
+    background: url('../img/evadora.jpg');
+}
+
+.panelOneSpeakerFive {
+    background: url(../img/dave.jpg);
+}
+
+.panelOneSpeakerSix {
+    background: url('../img/alex.jpg');
+}
+
+.panelOneSpeakerSeven {
+    background: url('../img/maegan.jpg');
+}
+
+#foundersPanelLink {
+    text-decoration: none;
+}
+
+/*panel two*/
+
+.panelTwoSpeakerOne {
+    background: url('../img/pouyansalehi.jpg');
+}
+
+.panelTwoSpeakerTwo {
+    background: url('../img/evan.png');
+}
+
+.panelTwoSpeakerThree {
+    background: url('../img/erinbeitel.jpeg');
+}
+
+.panelTwoSpeakerFour {
+    background: url('../img/andrewsutherland.jpg');
+}
+
+.panelTwoSpeakerFive {
+    background: url('../img/michaelstaton.jpg');
+}
+
+#panelTwoLink {
+    text-decoration: none;
+}
+
+/*panel three*/
+.panelThreeSpeakerOne {
+    background: url('../img/Rauch.png');
+}
+
+.panelThreeSpeakerTwo {
+    background: url('../img/geoffschmidt.jpg');
+}
+
+.panelThreeSpeakerThree {
+    background: url('../img/laurievoss.jpg');
+}
+
+.panelThreeSpeakerFour {
+    background: url('../img/randyterbush.jpg');
+}
+
+.panelThreeSpeakerFive {
+    background: url('../img/jadewang.jpg');
+}
+
+#panelThreeLink {
+    text-decoration: none;
+}
+
+/*panel four */
+.panelFourSpeakerOne {
+    background: url('../img/sam.png');
+}
+
+.panelFourSpeakerTwo {
+    background: url('../img/azat.jpg');
+}
+
+.panelFourSpeakerThree {
+    background: url('../img/jiquan.jpg');
+}
+
+.panelFourSpeakerFour {
+    background: url('../img/pk.png');
+}
+
+.panelFourSpeakerFive {
+    background: url('../img/jeremy.jpg');
+}
+
+#panelFourLink {
+    text-decoration: none;
+}
+
+#cancel {
+    display: block;
+    position: relative;
+    top: 55;
+    right: 35;
+}
+
+.md-close-hack {
+    display: none;
+    position: fixed;
+    top: 12;
+    right: 20;
+    z-index: 9999;
+    animation-fill-mode: forwards; 
+}
+
+.md-close-hack:hover {
+    cursor: pointer;
+    //transform: rotate(45deg);
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 0.4s; 
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotate; 
+    -moz-animation-duration: 0.4s; 
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    animation-name: rotate; 
+    animation-duration: 0.4s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+            
+/* -------------------- TRANSPORTATION -------------------- */
+            
+.shuttles {
+    background-color: #DEE5EA;
+    width: 100%;
+    padding-bottom: 65px;
+}
+            
+.shuttles h1 {
+    padding-top: 25px;
+    font-family: Avenir;
+    text-align: center;
+    font-weight: 200;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.shuttles h2 {
+    text-align: center;
+    font-weight: 700px;
+    font-family: Lato;
+    font-size: 22px;
+    text-decoration: underline;
+}
+          
+.shuttles h6 {
+    margin-top: 25px;
+    text-align: center;
+    color: ;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: Avenir;
+}
+            
+.shuttles p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Avenir;
+}
+            
+.transportInfo {
+    width: 40%;
+    margin: 0 auto;
+    height: 40%;
+    background-color: slategrey;
+}
+
+table, th, td {
+    border: 1px solid black;
+    //border-collapse: collapse;
+    margin: auto;
+    overflow-x: hidden;
+}
+th, td {
+    padding: 12px;
+    width: 10px;
+    overflow-x: hidden;
+}
+
+
+/* -------------------- Venue Map --------------*/
+
+.venuemap {
+    width: 100%;
+    height: 160%;
+}
+
+.venuemap img {
+    text-align: center;
+    width: 60%;
+    height: 90%;
+}
+
+.venuemap h2 {
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 200;
+    
+}
+
+.imageHolder {
+    text-align: center;
+    height: 100%;
+}
+            
+/* -------------------- FAQ -------------------- */
+            
+.justified{
+    text-align: justify;
+    
+}
+            
+#nice {
+    margin: 10 auto;
+    margin-right: 25px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    z-index: -2;
+}
+            
+.row {
+    text-align: center;
+}
+            
+#faq {
+    background-color: #eeeeee;
+    margin-top: -20px;
+    position: relative;
+    z-index: -1;
+}
+
+#faq h2 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    z-index: -2;
+}
+            
+#nice strong {
+    font-size: 16px;
+}
+
+#nice p {
+    font-size: 13px;
+}
+            
+#question {
+    font-size: 14px;
+}
+
+/* ------------------------ PRIZES -------------------------------*/
+
+.prizes {
+    width: 100%;
+    //height: 50%;
+    background-color: #D2DCDE;
+    margin-top: -25px;
+    padding-bottom: 60px;
+}
+
+.prizes h2 {
+    font-family: Lato;
+    padding-top: 25px;
+    font-weight: 200;
+    text-align: center;
+    font-size: 35px;
+}
+
+.prizes h4 {
+    text-align: center;
+}
+
+.prizeButtonHolder {
+    text-align: center;
+}
+
+.prizeButton {
+    background-color: #5D9294;
+}
+
+.prizeInfo {
+    background-color: #EFF3F4;
+    border-radius: 15px;
+    display: block;
+    width: 275px;
+    height: 200px;
+    margin: auto;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    vertical-align: top;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.prizeHolder {
+    text-align: center;
+}
+
+.prizeHolder h5 {
+    text-align: center;
+    font-weight: 100;
+    font-family: Lato;
+}
+
+.prizeInfo p {
+    text-align: center;
+    max-width: 300;
+    font-size: 17px;
+    font-family: Lato;
+    font-weight: 200;
+    max-height: 30%;
+}
+
+/* ------------------------ RESOURCES ---------------------------- */
+
+.resources {
+    width: 100%;
+    //height: 60%;
+    background-color: #A5A4A2;
+    padding-bottom: 60px;
+}
+
+.resources h2 {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Lato;
+    font-weight: 200;
+}
+
+.resourceButtonHolder {
+    text-align: center;
+}
+
+.resourcebutton {
+    margin: 25px;
+    background-color: #eeeeee;
+}
+
+.resourcebutton:hover {
+    background-color: #193148;
+    color: whitesmoke;
+    -webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+
+
+
+/* -------------------- SPONSORS/PARTNERS -------------------- */
+
+#sponsors {
+  background: white;
+  width:   100%;
+  padding: 25px 0;
+   text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+
+#sponsors .sponsorName{ background: url('http://static.planetminecraft.com/files/resource_media/screenshot/1327/1328800264_minecraft-logo_5843730_lrg.jpg')}
+#sponsors .chegg      { background: url('http://cdn0.hackingedu.co/img/sponsors/chegg.png');      }
+#sponsors .PayPal     { background: url('http://cdn1.hackingedu.co/img/sponsors/paypal.png');     }
+#sponsors .Worldquant { background: url('http://cdn2.hackingedu.co/img/sponsors/worldquant_logo.jpg'); }
+#sponsors .ibm        { background: url('http://cdn3.hackingedu.co/img/sponsors/ibm.jpg');        }
+#sponsors .auto       { background: url('http://cdn4.hackingedu.co/img/sponsors/automattic.jpg'); }
+#sponsors .pebble     { background: url('http://cdn5.hackingedu.co/img/sponsors/pebble.png');     }
+#sponsors .club       { background: url('http://cdn0.hackingedu.co/img/sponsors/club1.png');      }
+#sponsors .leapmotion { background: url('http://cdn1.hackingedu.co/img/sponsors/leapmotion.png'); }
+#sponsors .wolfram { background: url('../img/sponsors/wolfram.png'); }
+#sponsors .makeschool { background: url('http://cdn2.hackingedu.co/img/sponsors/makeschool.png'); }
+#sponsors .twilio     { background: url('http://cdn3.hackingedu.co/img/sponsors/twilio.png');     }
+#sponsors .twist      { background: url('http://cdn4.hackingedu.co/img/sponsors/twist.png')       }
+#sponsors .draper     { background: url('http://cdn5.hackingedu.co/img/sponsors/draper.png')      }
+#sponsors .bootstrap  { background: url('http://cdn0.hackingedu.co/img/sponsors/bootstrap.png');  }
+#sponsors .lyft       { background: url('http://cdn1.hackingedu.co/img/sponsors/lyft.png')        }
+#sponsors .namecheap  { background: url('http://cdn2.hackingedu.co/img/sponsors/namecheap1.png'); }
+#sponsors .socket     { background: url('http://cdn3.hackingedu.co/img/sponsors/socket.png');     }
+#sponsors .edsurge    { background: url('http://cdn4.hackingedu.co/img/sponsors/edsurge.jpg')     }
+#sponsors .kubby    { background: url('../img/sponsors/kubby.png')     }
+#sponsors .google     { background: url('http://cdn5.hackingedu.co/img/sponsors/google.png')      }
+#sponsors .wikihow   { background: url('../img/sponsors/wikihow.png')    }
+#sponsors .gun        { background: url('http://cdn1.hackingedu.co/img/sponsors/gun.png');        }
+#sponsors .pearlhacks { background: url('http://cdn2.hackingedu.co/img/sponsors/pearlhacks.png')  }
+#sponsors .nwhacks    { background: url('http://cdn3.hackingedu.co/img/sponsors/nwhacks.jpg')     }
+#sponsors .lahacks    { background: url('http://cdn4.hackingedu.co/img/sponsors/lahacks.jpeg')    }
+#sponsors .redbull    { background: url('http://cdn5.hackingedu.co/img/sponsors/redbull.png')     }
+#sponsors .roko       { background: url('http://cdn0.hackingedu.co/img/sponsors/roko.png')        }
+#sponsors .target     { background: url('http://cdn1.hackingedu.co/img/sponsors/target.png')      }
+#sponsors .linode     { background: url('http://cdn2.hackingedu.co/img/sponsors/linode.png')      }
+#sponsors .galvanize  { background: url('http://cdn3.hackingedu.co/img/sponsors/galvanize.png');  }
+#sponsors .edmodo     { background: url('http://cdn4.hackingedu.co/img/sponsors/edmodo.png');     }
+#sponsors .codinghouse{ background: url('http://cdn4.hackingedu.co/img/sponsors/coding_house.png');       }
+#sponsors .thalmiclabs{ background: url('http://cdn5.hackingedu.co/img/sponsors/thalmiclabs.png');        }
+#sponsors .rubicon    { background: url('http://cdn0.hackingedu.co/img/sponsors/RubiconProject.png');     }
+#sponsors .ga         { background: url('http://cdn1.hackingedu.co/img/sponsors/general_assembly.png');   }
+#sponsors .dolby      { background: url('http://cdn3.hackingedu.co/img/sponsors/dolby.png');              }
+#sponsors .hack4baltimore { background: url('http://cdn2.hackingedu.co/img/sponsors/hack4baltimore.png'); }
+#sponsors .globalcommit   { background: url('http://cdn3.hackingedu.co/img/sponsors/globalcommit.png');   }
+#sponsors .clusterpoint { background: url('../img/sponsors/clusterpoint.png');     }
+#sponsors .rocket {background: url('../img/sponsors/rocketfuel.png'); }
+#sponsors .studyblue {background: url('../img/sponsors/studyblue.jpg'); }
+
+#sponsors .coursehero { background: url('../img/sponsors/coursehero.png');     }
+#sponsors .moback { background: url('../img/sponsors/moback.png');     }
+#sponsors .roblox { background: url('../img/sponsors/roblox.png');     }
+#sponsors .hackerrank { background: url('../img/sponsors/HackerRank.png');     }
+#sponsors .braintree { background: url('../img/sponsors/braintree.png');     }
+#sponsors .muse { background: url('../img/sponsors/muse.png');     }
+#sponsors .emotiv { background: url('../img/sponsors/Emotiv.png');     }
+#sponsors .ibmbluemix { background: url('../img/sponsors/ibm_bluemix.png');     }
+
+#sponsors .uber { background: url('../img/sponsors/uber.png');     }
+#sponsors .particle { background: url('../img/sponsors/particle.png');     }
+#sponsors .hacksterio { background: url('../img/sponsors/hacksterio.png');     }
+#sponsors .nanovr { background: url('../img/sponsors/nanovr.png');     }
+#sponsors .kpcb { background: url('../img/sponsors/kpcb.jpg');     }
+#sponsors .dashdoc { background: url('../img/sponsors/dashdoc.png');     }
+#sponsors .edtechworldtour { background: url('../img/sponsors/edtechworldtour.jpeg');     }
+#sponsors .ostem { background: url('../img/sponsors/ostemlogo.svg');     }
+#sponsors .alienware { background: url('../img/sponsors/alienware.png');     }
+
+#sponsors .bde { background: url('../img/sponsors/bde.png');     }
+#sponsors .devnetwork { background: url('../img/sponsors/dev_network.png');     }
+#sponsors .femresources { background: url('../img/sponsors/femresources.png');     }
+#sponsors .greenathon { background: url('../img/sponsors/greenathon.png');     }
+
+#sponsors .nyntech { background: url('../img/sponsors/nyntech.png');     }
+#sponsors .aboutme { background: url('../img/sponsors/aboutme.png');     }
+#sponsors .oculus { background: url('../img/sponsors/oculus.png');     }
+#sponsors .gsvlabs { background: url('../img/sponsors/gsvlabs.png');     }
+
+#sponsors .audible { background: url('../img/sponsors/audible.png');     }
+#sponsors .moxtra { background: url('../img/sponsors/moxtra.png');     }
+#sponsors .capitalone { background: url('../img/sponsors/capitalone.png');     }
+#sponsors .medhacks { background: url('../img/sponsors/medhacks.png');     }
+#sponsors .citrus { background: url('../img/sponsors/citrus.png');     }
+#sponsors .teachforamerica { background: url('../img/sponsors/teachforamerica.jpg');     }
+#sponsors .oreilly { background: url('../img/sponsors/oreilly.png');     }
+
+
+
+#sponsors .table { background: url('../img/sponsors/table.png'); }
+#sponsors .usertesting { background: url('../img/sponsors/usertesting.png'); }
+#sponsors .texasinstruments { background: url('../img/sponsors/texasinstruments.png'); }
+#sponsors .startups { background: url('../img/sponsors/500startups.png'); }
+#sponsors .code { background: url('../img/sponsors/code2040.png'); }
+#sponsors .teespring {background:url('../img/sponsors/teespring.png'); }
+
+
+.tier, .tier a {
+  display: inline-block;
+}
+
+#sponsors figure, #sponsors a {
+  margin:  0 20px;
+  padding: 0;
+
+  //box-sizing: border-box;
+    background-size: contain !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important
+}
+
+.tier {
+  width: 100%;
+}
+
+.tier a {
+  margin: 20px !important;
+}
+
+.tier1 a {
+  min-width: 250px;
+  width:       50%;
+  height:     90px;
+}
+
+.tier2 a {
+  min-width: 250px; /* Split into 2 columns */
+  width:       30%;
+  height:     90px;
+}
+
+.tier3 a {
+  margin: 10px !important; /* Split into 3 columns */
+  min-width: 240px;
+  width:       10%;
+  height:     90px;
+}
+
+.tier4 a {
+  margin: 10px 35px !important; /* Split into 4 columns */
+  min-width: 160px;
+  width:       10%;
+  height:     90px;
+}
+
+
+
+#partners .tier4 a {
+  z-index: -1;
+}
+
+/* -------------------- FOOTER -------------------- */
+
+footer {
+    width: 100%;
+    height: 230px;
+    background-color: #193148;
+    text-align: center;
+}
+
+footer h3 {
+    padding-top: 15px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 100;
+    font-family: Avenir;
+}
+
+footer .social {
+    display: inline-block;
+    margin: 10 auto;
+    width: 60px;
+    height: 40px;
+    background-color: #193148;
+    vertical-align: top;
+}
+
+footer .socialHolder .social a i {
+    display: block;
+    margin-left: -15px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .socialHolder {
+    //background-color: red;
+    text-align: center;
+    height: 60px;
+}
+
+footer a h4 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: Avenir;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+footer .signature {
+    margin-top: -10px;
+    color: white;
+    font-size: 13px;
+    font-family: Lato;
+}
+
+/*Media Queries */
+
+@media(max-width: 1100px) {
+    #nav p a {
+        color: white;
+    }
+    
+    #nav p {
+        display: inline-block;
+        margin: 0 auto;
+        padding-left: 32px;
+        padding-right: 32px;
+        text-decoration: none;
+        padding-top: 5px;
+    }
+}
+            
+@media(max-width: 980px) {
+                
+    #nice {
+        width: 85%;
+        display: block;
+        margin: 10 auto;
+    }
+                
+    #nice strong {
+        text-align: left;
+    }
+                
+    .column1 h5 {
+        font-size: 15px;
+    }
+                
+    .column2 h5 {
+        font-size: 15px;
+    }
+    
+    .column3 h5 {
+        font-size: 15px;
+    }
+    
+    #nav {
+        width: 100%;
+        height: 5%;
+        text-align: center;
+    }
+
+    #nav p {
+        display: inline-block;
+        margin: 0 auto;
+        padding-left: 32px;
+        padding-right: 32px;
+        text-decoration: none;
+        padding-top: 5px;
+    }
+
+    #nav p a {
+        font-size: 16px;
+        font-family: Avenir;
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+    
+    #infoSchool {
+        height: 98px;
+    }
+    
+    .col1 strong p {
+        padding-top: 50px;
+    }
+    
+    .col2 strong  p {
+        padding-top: 50px;
+    }
+    
+    .col3 strong p {
+        padding-top: 50px;
+    }
+    
+    .col4 strong p {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width: 900px ) {
+    
+    #nav p {
+        display: inline-block;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-decoration: none;
+        padding-top: 5px;
+    }
+
+}
+
+@media(max-width: 740px ) {
+    #nav {
+        width: 100%;
+        height: 5%;
+        text-align: center;
+    }
+
+    #nav p {
+        display: inline-block;
+        margin: 0 auto;
+        padding-left: 8px;
+        padding-right: 8px;
+        text-decoration: none;
+        padding-top: 5px;
+    }
+
+    #nav p a {
+        font-size: 16px;
+        font-family: Avenir;
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+    
+    .awesome {
+        display: inline-block;
+        margin: auto;
+        width: 70%;
+    }
+    
+    .schedule {
+        text-align: center;
+    }
+    
+    #infoSchool {
+        width: 21%;
+    }
+    
+    .bus_table tr * {
+        width: 85px;
+    }
+}
+            
+@media(max-width: 600px) {
+    .column1 h5 {
+        font-size: 15px;
+    }
+                
+    .column2 h5 {
+        font-size: 15px;
+    }
+    
+    .column3 h5 {
+        font-size: 15px;
+    }
+    
+    #nav {
+        width: 100%;
+        height: 5%;
+        text-align: center;
+    }
+
+    #nav p {
+        display: inline-block;
+        margin: 0 auto;
+        padding-left: 1px;
+        padding-right: 1px;
+        text-decoration: none;
+        padding-top: 5px;
+    }
+
+    #nav p a {
+        font-size: 16px;
+        font-family: Avenir;
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+    
+    .header h1 {
+        padding-top: 150px;
+    }
+    
+    .schedule {
+        //text-align: center;
+    }
+    
+    .awesome {
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .column2 h5 {
+        text-align: center;
+    }
+    
+    .venuemap img {
+        width: 90%;
+    }
+    
+    #infoSchool {
+        width: 23%;
+    }
+    
+    .bus_table {
+        font-size: 15px;
+        width: 85px;
+    }
+    
+        
+}
+
+@media (max-width: 520px) {
+    .column1 h5 {
+        font-size: 15px;
+        text-align: left;
+        padding-left: 0;
+    }
+    
+    .column2 h5 {
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .column3 h5 {
+        font-size: 15px;
+        text-align: right;
+    }
+    
+    .event {
+        //height: 70px;
+    }
+
+    
+    .awesome {
+        display: inline-block;
+        width:100%;
+    }
+    
+    #nav p {
+        display: inline-block;
+        margin: 0 auto;
+        padding-left: 2px;
+        padding-right: 2px;
+        text-decoration: none;
+        padding-top: 8px;
+    }
+    
+    #nav p a {
+        font-size: 10px;
+        color: white;
+        font-family: Avenir;
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+    
+    #helloWorldPeople {
+        font-size: 20px;
+        width: 75%;
+        font-family: Lato;
+        font-size: 14px;
+    }
+    
+    .venuemap img {
+        width: 100%;
+        height: 50%;
+    }
+        
+}
+
+@media(max-width: 410px) {
+    .awesome {
+        width: 100%;
+    }
+    
+    .column1 h5 {
+        font-size: 15px;
+    }
+    
+    .column2 h5 {
+        font-size: 15px;
+    }
+    
+    .column3 h5 {
+        font-size: 15px;
+    }
+    
+    .schedule {
+        width: 100%;
+    }
+    
+    .event {
+        width: 100%;
+    }
+    
+    .column1 {
+        width: 30%;
+        
+    }
+    
+    .column2 {
+        width: 30%;
+    }
+    
+    .column3 {
+        width: 30%;
+        
+    }
+}
+
+@media(max-width: 1040px) {
+    .busInfo {
+        width: 100%;
+    }
+    
+    .busInfo p {
+        font-size: 11px;
+        
+    }
+}
+
+@media(max-height: 540px) {
+ 
+    .header h4 {
+        font-size: 15px;
+        margin-top: -110px;
+    }
+    
+    #helloWorldPeople {
+        font-size: 12px;
+    }
+    
+}
+
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(180deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(180deg);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(180deg);}
+}
+
+@-webkit-keyframes slow {
+    from {background-color: #eeeeee;}
+    to {background-color: #193148;}
+}
+
+@-moz-keyframes slow {
+    from {background-color: #eeeeee;}
+    to {background-color: #193148;}
+}
+
+@keyframes slow {
+    from {background-color: #eeeeee;}
+    to {background-color: #193148;}
+}
+
