@@ -1367,7 +1367,7 @@ Social Links
   display: inline-block;
 }
 
-#sponsors figure, #sponsors a {
+#sponsors figure, #sponsors a, #supporters a {
   margin:  0 20px;
   padding: 0;
 
