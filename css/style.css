@@ -59,6 +59,26 @@ a:focus {
   padding-bottom: 20px;
 }
 
+.color-teal {
+  color: rgb(14, 79, 93);
+}
+
+.color-maroon {
+  color: rgb(117, 24, 71);
+}
+
+.color-orange {
+  color: rgb(182, 95, 0);
+}
+
+.color-green {
+  color: rgb(54, 119, 20);
+}
+
+.color-blue {
+  color: rgb(25, 67, 137);
+}
+
 /* =========================================================================
                             Main Section
 =======================================================================*/
