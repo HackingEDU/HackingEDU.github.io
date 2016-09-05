@@ -1274,6 +1274,11 @@ Social Links
   padding: 90px 0;
 }
 
+#supporters {
+  background-color:#eeeeee;
+  width:   100%;
+  padding: 90px 0;
+}
 
 #sponsors .sponsorName{ background: url('http://static.planetminecraft.com/files/resource_media/screenshot/1327/1328800264_minecraft-logo_5843730_lrg.jpg')}
 #sponsors .chegg      { background: url('../img/sponsors/chegg.png');      }
@@ -1309,7 +1314,8 @@ Social Links
 #sponsors .linode     { background: url('../img/sponsors/linode.png')      }
 #sponsors .galvanize  { background: url('../img/sponsors/galvanize.png');  }
 #sponsors .edmodo     { background: url('../img/sponsors/edmodo.png');     }
-#sponsors .thalmiclabs{ background: url('../img/sponsors/thalmiclabs.png');        }
+.thalmiclabs{ background: url('../img/sponsors/thalmiclabs.png');        }
+.stickeryou { background: url('../img/sponsors/stickeryou.png'); }
 #sponsors .rubicon    { background: url('../img/sponsors/RubiconProject.png');     }
 #sponsors .ga         { background: url('../img/sponsors/general_assembly.png');   }
 #sponsors .dolby      { background: url('../img/sponsors/dolby.png');              }
@@ -1446,7 +1452,6 @@ Social Links
 
 /*press*/
 #press{
-  background-color:#eeeeee;
   width:   100%;
   padding: 70px 0;
 }
