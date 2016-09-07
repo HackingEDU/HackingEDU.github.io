@@ -651,6 +651,23 @@ button.butt.substatement.block {
    animation-fill-mode: forwards;
 }
 
+.workshop-img {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 100px;
+   height: 100px;
+   border-radius: 100%;
+}
+
+@media (min-width: 740px) {
+  .workshop-img {
+    float: right;
+  }
+  .workshop-text {
+    margin-left: 1.5%;
+  }
+}
+
 /*Training Day Section*/
 
 #training-day {
