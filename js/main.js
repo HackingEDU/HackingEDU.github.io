@@ -55,3 +55,28 @@ $('#header').on('click', function(){
   $('#header').hasClass('in') ? $(".navbar-collapse").collapse('hide') : $(".navbar-collapse").collapse('show');
 });
 
+/* Training day table */
+$("#events tr").click(function(clickEvent) {
+   clickEvent.preventDefault();
+   clickEvent.stopImmediatePropagation();
+   var plusSign = $(this).find(".glyphicon-plus");
+   if (plusSign.hasClass("open")) {
+      closeRow(plusSign);
+   }
+   else {
+      closeRow($("#events .glyphicon-plus").not(plusSign));
+      openRow(plusSign);
+   }
+});
+
+function closeRow(items) {
+   $(items).addClass("closed");
+   $(items).removeClass("open");
+   $(items).closest("tr").next().css("display", "none");
+}
+
+function openRow(items) {
+   $(items).addClass("open");
+   $(items).removeClass("closed");
+   $(items).closest("tr").next().css("display", "table-row");
+}
