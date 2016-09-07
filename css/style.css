@@ -482,6 +482,14 @@ button.butt.substatement.block {
   margin-left: 8px;
 }
 
+
+.grey:hover{
+
+  color:white !important;
+  background: black !important;
+
+}
+
 .live-button {
   border-radius: .55em;
   display:inline-block;
@@ -559,8 +567,114 @@ button.butt.substatement.block {
   background-color:#eeeeee;
 }
 
+/* Events Section */
 
+#events tr {
+  cursor: default;
+}
 
+#events table th:first-child {
+  padding-left: 10px;
+}
+
+#events table td:first-child {
+  padding-left: 10px;
+}
+
+@-moz-keyframes rotate-open {
+   from {
+      -moz-transform: rotate(0deg);
+   }
+   to {
+      -moz-transform: rotate(45deg);
+   }
+}
+
+@-webkit-keyframes rotate-open {
+   from {
+      -webkit-transform: rotate(0deg);
+   }
+   to {
+      -webkit-transform: rotate(45deg);
+   }
+}
+
+@keyframes rotate-open {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(45deg);
+   }
+}
+
+@-moz-keyframes rotate-closed {
+   from {
+      -moz-transform: rotate(45deg);
+   }
+   to {
+      -moz-transform: rotate(0deg);
+   }
+}
+
+@-webkit-keyframes rotate-closed {
+   from {
+      -webkit-transform: rotate(45deg);
+   }
+   to {
+      -webkit-transform: rotate(0deg);
+   }
+}
+
+@keyframes rotate-closed {
+   from {
+      transform: rotate(45deg);
+   }
+   to {
+      transform: rotate(0deg);
+   }
+}
+
+.open {
+   -webkit-transform-origin: 50% 58%;
+   transform-origin:50% 58%;
+   -ms-transform-origin:50% 58%; /* IE 9 */
+   -webkit-animation: rotate-open .2s;
+   -moz-animation: rotate-open .2s;
+   -o-animation: rotate-open .2s;
+   animation: rotate-open .2s;
+   -webkit-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+}
+
+.closed {
+   -webkit-transform-origin: 50% 58%;
+   transform-origin:50% 58%;
+   -ms-transform-origin:50% 58%; /* IE 9 */
+   -webkit-animation: rotate-closed .2s;
+   -moz-animation: rotate-closed .2s;
+   -o-animation: rotate-closed .2s;
+   animation: rotate-closed .2s;
+   -webkit-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+}
+
+.workshop-img {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 100px;
+   height: 100px;
+   border-radius: 100%;
+}
+
+@media (min-width: 740px) {
+  .workshop-img {
+    float: right;
+  }
+  .workshop-text {
+    margin-left: 1.5%;
+  }
+}
 
 /*Training Day Section*/
 
