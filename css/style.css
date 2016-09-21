@@ -1504,8 +1504,9 @@ Social Links
 #sponsors .teespring {background:url('../img/sponsors/teespring.png'); }
 #sponsors .aws {background:url('../img/sponsors/aws.png'); }
 #sponsors .devbootcamp { background: url('../img/sponsors/devbootcamp.png');     }
-
-
+#sponsors .stormpath { background: url('../img/sponsors/stormpath.png');     }
+#sponsors .mitlaunch { background: url('../img/sponsors/Launch New Logo w MIT.png'); }
+#sponsors .leapmotion { background: url('../img/sponsors/leapmotion.png'); background-size: 150px !important; background-position-y: 40px !important;  }
 
 
 .tier, .tier a {
