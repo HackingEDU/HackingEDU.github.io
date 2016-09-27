@@ -12,7 +12,7 @@
 -Shuttles
 -Sponsor
 -Footer
-
+-Modal Iframe
  */
 
 body {
@@ -77,6 +77,11 @@ a:focus {
 
 .color-blue {
   color: rgb(25, 67, 137);
+}
+
+.modal-header .close {
+  margin-top: -20px;
+  margin-right: -5px;
 }
 
 /* =========================================================================
@@ -1428,7 +1433,6 @@ Social Links
 #sponsors .linode     { background: url('../img/sponsors/linode.png')      }
 #sponsors .galvanize  { background: url('../img/sponsors/galvanize.png');  }
 #sponsors .edmodo     { background: url('../img/sponsors/edmodo.png');     }
-.thalmiclabs{ background: url('../img/sponsors/thalmiclabs.png');        }
 .stickeryou { background: url('../img/sponsors/stickeryou.png'); }
 #sponsors .rubicon    { background: url('../img/sponsors/RubiconProject.png');     }
 #sponsors .ga         { background: url('../img/sponsors/general_assembly.png');   }
@@ -1499,9 +1503,10 @@ Social Links
 #sponsors .teespring {background:url('../img/sponsors/teespring.png'); }
 #sponsors .aws {background:url('../img/sponsors/aws.png'); }
 #sponsors .devbootcamp { background: url('../img/sponsors/devbootcamp.png');     }
-
-
-
+#sponsors .stormpath { background: url('../img/sponsors/stormpath.png');     }
+#sponsors .mitlaunch { background: url('../img/sponsors/Launch New Logo w MIT.png'); }
+#sponsors .leapmotion { background: url('../img/sponsors/leapmotion.png'); background-size: 150px !important;   }
+#sponsors .thalmiclabs{ background: url('../img/sponsors/thalmiclabs.png'); background-size: 172px !important;  }
 
 .tier, .tier a {
   display: inline-block;
@@ -1674,4 +1679,22 @@ a.hover-line{
   display:inline-block;
   padding: 0 0.3em;
   margin-top: 0.2em;
+}
+
+/* =========================================================================
+                            Modal Iframe
+=======================================================================*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
