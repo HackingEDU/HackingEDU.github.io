@@ -97,6 +97,13 @@ a:focus {
   position: relative;
 }
 
+#location {
+  background: white;
+  width:   100%;
+  padding: 90px 0;
+    text-align: center;
+}
+
 /* =========================================================================
                             Sticky Navbar
 =======================================================================*/
