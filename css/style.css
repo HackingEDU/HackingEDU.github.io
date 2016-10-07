@@ -1429,7 +1429,7 @@ Social Links
 #sponsors .lyft       { background: url('../img/sponsors/lyft.png')        }
 #sponsors .namecheap  { background: url('../img/sponsors/namecheap1.png'); }
 #sponsors .socket     { background: url('../img/sponsors/socket.png');     }
-#sponsors .edsurge    { background: url('../img/sponsors/edsurge.jpg')     }
+#sponsors .edsurge    { background: url('../img/sponsors/edsurge.png')     }
 #sponsors .kubby      { background: url('../img/sponsors/kubby.png')     }
 #sponsors .google     { background: url('../img/sponsors/google.png')      }
 #sponsors .wikihow    { background: url('../img/sponsors/wikihow.png')    }
@@ -1445,16 +1445,19 @@ Social Links
 #sponsors .galvanize  { background: url('../img/sponsors/galvanize.png');  }
 #sponsors .edmodo     { background: url('../img/sponsors/edmodo.png');     }
 .stickeryou { background: url('../img/sponsors/stickeryou.png'); }
-.bai { background: url('../img/supporters/bai_logo.png') }
+.bai { background: url('../img/supporters/bai_logo.png'); }
 .essentia { background: url('../img/supporters/essentia_logo.png') }
 .fresh-prints { background: url('../img/supporters/fresh-prints.png') }
 .hint-water { background: url('../img/supporters/HINT-WATER-LOGO-2.png') }
 .kettle { background: url('../img/supporters/kettle-large.png') }
 .kind { background: url('../img/supporters/kind.jpg') }
 .nesquik { background: url('../img/supporters/nesquik.png') }
-.sv-code-camp { background: url('../img/supporters/silicon-valley-code-camp.png') }
+.sv-code-camp { background: url('../img/supporters/silicon-valley-code-camp.png'); background-size: 140px !important;  }
 .wonderful-pistachios { background: url('../img/supporters/wonderful-pistachios.png') }
-.zico { background: url('../img/supporters/zico_logo.png') }
+.zico { background: url('../img/supporters/zico_logo.png'); background-size: 140px !important; }
+.edsurge    { background: url('../img/sponsors/edsurge.png')     }
+.oreilly { background: url('../img/sponsors/oreilly.png');     }
+
 #sponsors .rubicon    { background: url('../img/sponsors/RubiconProject.png');     }
 #sponsors .ga         { background: url('../img/sponsors/general_assembly.png');   }
 #sponsors .dolby      { background: url('../img/sponsors/dolby.png');              }
@@ -1524,11 +1527,11 @@ Social Links
 #sponsors .teespring {background:url('../img/sponsors/teespring.png'); }
 #sponsors .aws {background:url('../img/sponsors/aws.png'); }
 #sponsors .devbootcamp { background: url('../img/sponsors/devbootcamp.png');     }
-#sponsors .stormpath { background: url('../img/sponsors/stormpath.png');     }
-#sponsors .balsamiq { background: url('../img/sponsors/basalmiq.png');     }
+#sponsors .stormpath { background: url('../img/sponsors/stormpath.png'); background-size: 210px !important;    }
+#sponsors .balsamiq { background: url('../img/sponsors/basalmiq.png'); background-size: 160px !important;    }
 #sponsors .mitlaunch { background: url('../img/sponsors/Launch New Logo w MIT.png'); }
-#sponsors .leapmotion { background: url('../img/sponsors/leapmotion.png'); background-size: 150px !important;   }
-#sponsors .thalmiclabs{ background: url('../img/sponsors/thalmiclabs.png'); background-size: 172px !important;  }
+#sponsors .leapmotion { background: url('../img/sponsors/leapmotion.png'); background-size: 175px !important;   }
+#sponsors .thalmiclabs{ background: url('../img/sponsors/thalmiclabs.png'); background-size: 220px !important;  }
 
 .tier, .tier a {
   display: inline-block;
