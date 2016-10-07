@@ -1406,6 +1406,10 @@ Social Links
   padding: 90px 0;
 }
 
+.tier.tier2>a {
+  width: 40px;
+}
+
 #sponsors .sponsorName{ background: url('http://static.planetminecraft.com/files/resource_media/screenshot/1327/1328800264_minecraft-logo_5843730_lrg.jpg')}
 #sponsors .chegg      { background: url('../img/sponsors/chegg.png');      }
 #sponsors .PayPal     { background: url('../img/sponsors/paypal.png');     }
@@ -1441,6 +1445,16 @@ Social Links
 #sponsors .galvanize  { background: url('../img/sponsors/galvanize.png');  }
 #sponsors .edmodo     { background: url('../img/sponsors/edmodo.png');     }
 .stickeryou { background: url('../img/sponsors/stickeryou.png'); }
+.bai { background: url('../img/supporters/bai_logo.png') }
+.essentia { background: url('../img/supporters/essentia_logo.png') }
+.fresh-prints { background: url('../img/supporters/fresh-prints.png') }
+.hint-water { background: url('../img/supporters/HINT-WATER-LOGO-2.png') }
+.kettle { background: url('../img/supporters/kettle-large.png') }
+.kind { background: url('../img/supporters/kind.jpg') }
+.nesquik { background: url('../img/supporters/nesquik.png') }
+.sv-code-camp { background: url('../img/supporters/silicon-valley-code-camp.png') }
+.wonderful-pistachios { background: url('../img/supporters/wonderful-pistachios.png') }
+.zico { background: url('../img/supporters/zico_logo.png') }
 #sponsors .rubicon    { background: url('../img/sponsors/RubiconProject.png');     }
 #sponsors .ga         { background: url('../img/sponsors/general_assembly.png');   }
 #sponsors .dolby      { background: url('../img/sponsors/dolby.png');              }
